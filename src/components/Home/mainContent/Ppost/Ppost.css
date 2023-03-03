@@ -1,0 +1,10 @@
+.popularPost .boxz {
+  margin: 15px 15px 15px 0px;
+}
+.popularPost img {
+  width: 100%;
+  height: 100%;
+}
+.popularPost .text {
+  padding: 20px;
+}

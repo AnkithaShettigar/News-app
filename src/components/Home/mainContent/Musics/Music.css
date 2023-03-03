@@ -1,0 +1,19 @@
+.music .boxz {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.music .text {
+  padding: 0 30px;
+}
+.music .images {
+  width: 320px;
+  height: 320px;
+}
+.music img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+.music h1 {
+  font-size: 22px;
+}

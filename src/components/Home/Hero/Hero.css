@@ -1,0 +1,53 @@
+.hero {
+  margin: 30px 0;
+}
+.hero a {
+  color: #fff;
+}
+.hero .box {
+  position: relative;
+  padding: 30px;
+}
+.box img {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.hero .text {
+  color: #fcf8f8;
+}
+.hero .text h1 {
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 25px;
+}
+.hero .author span {
+  font-size: 15px;
+  margin-right: 20px;
+  color: #1f1a1a;
+}
+.hero .category {
+  color: #750606;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 80px;
+  }
+  .box img {
+    width: 400px;
+  }
+  .titleBg {
+    width: 380px;
+  }
+}
